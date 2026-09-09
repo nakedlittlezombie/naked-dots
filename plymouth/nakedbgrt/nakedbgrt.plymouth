@@ -1,0 +1,108 @@
+[Plymouth Theme]
+Name[be]=nakedBGRT
+Name[cs]=nakedBGRT
+Name[da]=nakedBGRT
+Name[de]=nakedBGRT
+Name[eo]=nakedBGRT
+Name[es]=nakedBGRT
+Name[eu]=nakedBGRT
+Name[fr]=nakedBGRT
+Name[fur]=nakedBGRT
+Name[hi]=nakedBGRT
+Name[hr]=nakedBGRT
+Name[hu]=nakedBGRT
+Name[id]=nakedBGRT
+Name[it]=nakedBGRT
+Name[lt]=nakedBGRT
+Name[ka]=nakedBGRT
+Name[nl]=nakedBGRT
+Name[pa]=nakedBGRT
+Name[pl]=nakedBGRT
+Name[pt_BR]=nakedBGRT
+Name[pt]=nakedBGRT
+Name[ro]=nakedBGRT
+Name[ru]=nakedBGRT
+Name[sr]=nakedBGRT
+Name[sv]=nakedBGRT
+Name[tr]=nakedBGRT
+Name[uk]=nakedBGRT
+Name[zh_CN]=nakedBGRT
+Name[zh_TW]=nakedBGRT
+Name[ms]=nakedBGRT
+Name[he]=nakedBGRT
+Name[fa]=nakedBGRT
+Name[fi]=nakedBGRT
+Name[ie]=nakedBGRT
+Name[gl]=nakedBGRT
+Name[cy]=nakedBGRT
+Name[kab]=nakedBGRT
+Name[kk]=nakedBGRT
+Name[sl]=nakedBGRT
+Name[el]=nakedBGRT
+Name[ca]=nakedBGRT
+Name[ar]=nakedBGRT
+Name=nakedBGRT
+Description=A theme designed by nakedlittlezombie inspired by jimmac that features a simple spinner using the ACPI BGRT graphics as background
+ModuleName=two-step
+
+[two-step]
+Font=Adwaita Sans 12
+TitleFont=Adwaita Sans Light 30
+MonospaceFont=Adwaita Mono 12
+ImageDir=/usr/share/plymouth/themes//nakedspinner
+DialogHorizontalAlignment=.5
+DialogVerticalAlignment=.382
+TitleHorizontalAlignment=.5
+TitleVerticalAlignment=.382
+HorizontalAlignment=.5
+VerticalAlignment=.7
+WatermarkHorizontalAlignment=.5
+WatermarkVerticalAlignment=.96
+Transition=none
+TransitionDuration=0.0
+BackgroundStartColor=0x000000
+BackgroundEndColor=0x000000
+ProgressBarBackgroundColor=0x606060
+ProgressBarForegroundColor=0xffffff
+DialogClearsFirmwareBackground=true
+MessageBelowAnimation=true
+
+[boot-up]
+UseEndAnimation=false
+UseFirmwareBackground=true
+
+[shutdown]
+UseEndAnimation=false
+UseFirmwareBackground=true
+
+[reboot]
+UseEndAnimation=false
+UseFirmwareBackground=true
+
+[updates]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Installing Updates...
+SubTitle=Do not turn off your computer
+
+[system-upgrade]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Upgrading System...
+SubTitle=Do not turn off your computer
+
+[firmware-upgrade]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Upgrading Firmware...
+SubTitle=Do not turn off your computer
+
+[system-reset]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Resetting System...
+SubTitle=Do not turn off your computer

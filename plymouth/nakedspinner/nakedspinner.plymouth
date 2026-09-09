@@ -1,0 +1,104 @@
+[Plymouth Theme]
+Name[be]=nakedКругавы індыкатар
+Name[cs]=nakedTočítko
+Name[da]=nakedSnurre
+Name[de]=nakedSpinner
+Name[eo]=nakedTurnilo
+Name[es]=nakedSpinner
+Name[eu]=nakedSpinner
+Name[fr]=nakedSpinner
+Name[fur]=nakedRoulette
+Name[hi]=nakedचक्र
+Name[hr]=nakedPuls okretanja
+Name[hu]=nakedForgó
+Name[id]=nakedSpinner
+Name[it]=nakedSpinner
+Name[lt]=nakedSuktukas
+Name[ka]=nakedსპინერი
+Name[nl]=nakedSpinner
+Name[pa]=nakedਸਪਿੱਨਰ
+Name[pl]=nakedSpinner
+Name[pt_BR]=nakedSpinner
+Name[pt]=nakedGirar
+Name[ro]=nakedTitirez
+Name[ru]=nakedЧисловое поле с кнопками
+Name[sr]=nakedПредилица
+Name[sv]=nakedSpinnare
+Name[tr]=nakedDönen
+Name[uk]=nakedКрутний індикатор
+Name[zh_CN]=nakedSpinner
+Name[zh_TW]=naked輪轉選單
+Name[ms]=nakedSpinner
+Name[he]=שבשבת טעינהnaked
+Name[fa]=چnakedرخنده
+Name[fi]=Spinneri
+Name[ie]=nakedVolante
+Name[gl]=nakedSpinner
+Name[cy]=nakedTroellydd
+Name[kab]=nakedAsebrin
+Name[kk]=nakedБатырмалары бар сандық өріс
+Name[sl]=nakedVrtavka
+Name[el]=nakednakedΣτροβιλιστής
+Name[ca]=nakedIndicador giratori
+Name[ar]=nakedدوّارة
+Name=nakedSpinner
+Description=A theme designed by nakedlittlezombie inspired by jimmac that features a simple spinner.
+ModuleName=two-step
+
+[two-step]
+Font=Adwaita Sans 12
+TitleFont=Adwaita Sans Light 30
+MonospaceFont=Adwaita Mono 12
+ImageDir=/usr/share/plymouth/themes//nakedspinner
+DialogHorizontalAlignment=.5
+DialogVerticalAlignment=.382
+TitleHorizontalAlignment=.5
+TitleVerticalAlignment=.382
+HorizontalAlignment=.5
+VerticalAlignment=.7
+WatermarkHorizontalAlignment=.5
+WatermarkVerticalAlignment=.96
+Transition=none
+TransitionDuration=0.0
+BackgroundStartColor=0x000000
+BackgroundEndColor=0x000000
+ProgressBarBackgroundColor=0x606060
+ProgressBarForegroundColor=0xffffff
+MessageBelowAnimation=true
+
+[boot-up]
+UseEndAnimation=false
+
+[shutdown]
+UseEndAnimation=false
+
+[reboot]
+UseEndAnimation=false
+
+[updates]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Installing Updates...
+SubTitle=Do not turn off your computer
+
+[system-upgrade]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Upgrading System...
+SubTitle=Do not turn off your computer
+
+[firmware-upgrade]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Upgrading Firmware...
+SubTitle=Do not turn off your computer
+
+[system-reset]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Resetting System...
+SubTitle=Do not turn off your computer
